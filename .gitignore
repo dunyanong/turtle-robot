@@ -1,0 +1,46 @@
+# ROS build artifacts
+/build/
+/devel/
+/install/
+
+# Catkin workspace logs
+logs/
+*.log
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Compiled binaries and libraries
+*.o
+*.so
+*.a
+*.out
+
+# Temporary files
+*.tmp
+*.bak
+*.old
+*.orig
+*.rej
+*~
+
+# ROS-related temporary files
+.catkin_workspace
+.catkin_tools/
+
+# Ignoring any generated messages, services, and actions
+msg_gen/
+srv_gen/
+action_gen/
+
+# Configuration files generated during builds
+CMakeLists.txt.user
