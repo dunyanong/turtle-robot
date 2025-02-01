@@ -2,7 +2,6 @@
 import rclpy
 from rclpy.node import Node
 
-
 class MyNode(Node):
 
     def __init__(self):
