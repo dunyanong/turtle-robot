@@ -9,7 +9,7 @@ class NumberPublisherNode(Node):
     def __init__(self):
         super().__init__("number_publisher")
 
-        self.declare_parameter("number_to_publish")
+        self.declare_parameter("number_to_publish", 0)
 
         self.number_ = self.get_parameter("number_to_publish").value
         self.number_publisher_ = self.create_publisher(Int64, "number", 10)
